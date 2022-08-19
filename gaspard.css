@@ -1,0 +1,648 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+html, body{
+    overflow-x: hidden;
+}
+
+.container{
+    height: 10vh;
+    width: 100%;
+    background-color:#051F62 ;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: fixed;
+}
+.menu{
+    display: none;
+}
+a{
+    padding: 15px 30px; 
+    color: white;
+    text-decoration: none; 
+}
+.logo{
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 40px;
+    z-index: 2;
+}
+.jaune{
+    height: 65vh;
+    width: 100%;
+    background-color: #FFB802;
+}
+.black{
+    height:35vh;
+    width: 100%;
+    background-color: #0F100F;
+}
+
+h1{
+    color: #274301;
+    font-style: italic;
+    font-size: 70px;
+    margin-left: 40px;
+}
+p{
+    color: #274301;
+    font-style: italic;
+    font-size: 35px;
+    margin-left: 40px;
+   
+}
+.white{
+    color: white;
+    font-size: 25px;
+    font-style: italic;
+    margin-left: 50px;
+}
+.img1{
+    position: absolute;
+    left: 70%;
+    bottom: 1%;
+}
+
+/* la page de la description */
+
+.corps{
+    background-color: #FFB802;
+    height: 95vh;
+    width: 100%;
+}
+.mom{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-around;
+    padding-top: 30px;
+
+}
+.img2{
+    width: 300px;
+    height: 350px;
+    margin-top: 20px;
+}
+.text{
+    transform: translate(550px);
+    color: #274301;
+    font-size: 70px;
+    font-style: italic;
+    width: 40%;
+    padding-top: 60px;
+
+}
+.group{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+
+
+/*la page des travaux*/
+
+.pere{
+    background-color: #FFB802;
+    height: 110vh;
+    width: 100%;
+}
+.mom2{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-around;
+    padding-top: 30px;
+
+}
+.seul{
+    margin-top: 3vw;
+}
+.text2{
+    transform: translate(550px);
+    color: #274301;
+    font-size: 70px;
+    font-style: italic;
+    width: 40%;
+    padding-top: 60px;
+    margin-left: -50px;
+
+}
+.carre{
+    height: 337px;
+    width: 460px;
+    background-color: #E9BD4C;
+    margin-bottom: 20px;
+}
+.carre2{
+    height: 337px;
+    width: 460px;
+    background-color: #E9BD4C;
+}
+.gauche{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    justify-content: space-around;
+}
+
+/*la page de mon equipe*/
+
+
+
+.carousel-slider{
+    display: none;
+}
+.patron{
+    background-color: #FFB802;
+    height: 95vh;
+    width: 100%;
+}
+.seul2{
+    height: 295px;
+    width: 336px;
+    background-color: #0F4F0A;
+}
+.seul3{
+    height: 295px;
+    width: 336px;
+    background-color: #0F4F0A;
+}
+.gauche2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+.slider-container{
+    display: none;
+}
+
+/* la page de mes loisirs*/
+
+
+.boss{
+    background-color: #FFB802;
+    height: 95vh;
+    width: 100%;
+}
+.centre{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    justify-content: space-around;
+}
+li{
+    list-style: none;
+}
+
+
+
+
+/*la page contact moi*/
+
+.contact{
+    height: 100vh;
+    width: 100%;
+    background-color: #FFB802;
+    display: flex;
+}
+.page{
+    width: 50%;
+    height: 70vh;
+}
+.page1{
+    width: 50%;
+    height: 60vh;
+    margin-top: 220px;
+}
+.page .mom2{
+    margin-left: 340px;
+}
+.deux{
+    display: flex;
+    justify-content: space-around;
+    width: 35vw;
+    margin-left: 2vw;
+    
+    
+}
+.deux1 input{
+    height: 50px;
+    width: 200px;
+    background-color: #E9BD4C;
+    border: none;
+    
+    
+}
+.input input{
+    height: 50px;
+    width: 538px;
+    margin-left: 66px; 
+    margin-top: 50px;
+    background-color: #E9BD4C;
+    border: none;
+}
+.inputbig input{
+    height: 100px;
+    width: 538px;
+    margin-left: 66px;
+    margin-top: 50px;
+    background-color: #E9BD4C;
+    border: none;
+}
+.write1{
+    width: 50%;
+    margin-top: 40px;
+    margin-left: 50px;
+}
+.write{
+    padding: 30px;
+}
+span{
+    color: gray;
+}
+
+
+
+/*version mobile du port folio de gaspard*/
+
+/* La section Accueil */
+
+@media screen and (max-width:1200px) {
+    .img1{
+        position: absolute;
+        left: 60%;
+        bottom: 1%;
+    }
+    
+}
+@media screen and (max-width:1022px) {
+    .img1{
+        display: none;
+    }
+    
+}
+@media screen and (max-width:936px) {
+    .menu{
+        display: block;
+    }
+    ul{
+        display: none;
+    }
+    p{
+        color: #274301;
+        font-style: italic;
+        font-size: 25px;
+        margin-left: 40px;
+       
+    }
+}
+
+/* la section Description version responsive*/
+
+@media screen and (max-width:1200px) {
+    .text{
+        transform: translate(550px);
+        color: #274301;
+        font-size: 70px;
+        font-style: italic;
+        width: 40%;
+        padding-top: 60px;
+        margin-left: -80px;
+    
+    }
+}
+
+@media screen and (max-width:1022px) {
+    .text{
+        transform: translate(130px);
+    }
+    .group{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+}
+@media screen and (max-width:1115px) {
+    .corps{
+        height: 160vh;
+    }
+    
+}
+@media screen and (max-width:458px) {
+    p{
+        font-size: 20px;
+    }
+    .text{
+        font-size: 60px;
+    }
+    
+}
+
+
+/* la section travaux */
+
+@media screen and (max-width:1034px) {
+    .seul p{
+        margin-bottom: 30px;
+    }
+    
+}
+@media screen and (max-width:1022px){
+    .text2{
+        transform: translate(130px);
+    }
+    .gauche{
+        display: flex;
+        flex-direction: column;
+    }
+    .carre{
+        height: 137px;
+        width: 260px;
+        background-color: #E9BD4C;
+        margin-left: 30px;
+        
+    }
+    .carre2{
+        height: 137px;
+        width: 260px;
+        background-color: #E9BD4C;
+    }
+    .seul p{
+        font-size: 25px;
+    }
+    .droite p{
+        font-size: 25px;
+    }
+}
+
+/* La section mon equipe en mode responsive*/
+
+@media screen and (max-width:1200px) {
+    .slider-container{
+        display: block;
+    }
+    .gauche2{
+        display: none;
+    }
+    /* start global style */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* start container style */
+  .carousel-slider {
+    position: relative;
+    width: 80%;
+    max-width: 600px;
+    height: 200px;
+    margin: 70px auto;
+    display: block;
+  }
+  
+  /* start slides style */
+  .carousel-slider > .slides {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    overflow-x: hidden;
+  }
+  
+  .carousel-slider > .slides > .slide {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    transition: 0.5s linear;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .carousel-slider > .slides > .slide#slide-1 {
+    background:  #0F4F0A;
+  }
+  
+  .carousel-slider > .slides > .slide#slide-2 {
+    background:  #0F4F0A;
+  }
+  
+  /* start slide movment control style */
+  input#slide1:checked ~ .slides > #slide-1 {
+    z-index: 1;
+    transform: translateX(0);
+  }
+  
+  input#slide2:checked ~ .slides > #slide-2 {
+    z-index: 1;
+    transform: translateX(0);
+  }
+  
+
+  
+  /* slides move animation */
+  input#slide1:checked ~ .slides > #slide-2, 
+  input#slide1:checked ~ .slides > #slide-3, 
+  input#slide1:checked ~ .slides > #slide-4 {
+    transform: translateX(100%);
+  }
+  
+  input#slide2:checked ~ .slides > #slide-1 {
+    transform: translateX(-100%);
+  }
+  input#slide2:checked ~ .slides > #slide-3, 
+  input#slide2:checked ~ .slides > #slide-4 {
+    transform: translateX(100%);
+  }
+  
+  input#slide3:checked ~ .slides > #slide-2, 
+  input#slide3:checked ~ .slides > #slide-1 {
+    transform: translateX(-100%);
+  }
+  input#slide3:checked ~ .slides > #slide-4 {
+    transform: translateX(100%);
+  }
+  
+  input#slide4:checked ~ .slides > #slide-3, 
+  input#slide4:checked ~ .slides > #slide-2, 
+  input#slide4:checked ~ .slides > #slide-1 {
+    transform: translateX(-100%);
+  }
+  
+  /* start input style */
+  .carousel-slider > input {
+    display: none;
+  }
+  
+  /* start slider nav style */
+  .carousel-slider > .slider-nav-number {
+    position: absolute;
+    width: 100%;
+    bottom: -70px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 10px;
+    padding: 9px 0;
+    border: 1px solid #333;
+  }
+  
+  .carousel-slider > .slider-nav-number > label {
+    background-color: #7f8c8d;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    user-select: none;
+  }
+  
+  .carousel-slider > .slider-nav-number  > label:hover {
+    color: #fff;
+    background-color: black !important;
+  }
+  
+  .carousel-slider > .slider-nav-prev > label {
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    background-color: #7f8c8d;
+    border-radius: 50%;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .carousel-slider > .slider-nav-prev > label::before {
+    content: "";
+    border: 10px solid transparent;
+    border-right-color: #000;
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  
+  .carousel-slider > .slider-nav-next > label {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #7f8c8d;
+    cursor: pointer;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translate(50%, -50%);
+  }
+  
+  .carousel-slider > .slider-nav-next > label::after {
+    content: "";
+    border: 10px solid transparent;
+    border-left-color: #000;
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  
+  /* hilight slider nav */
+  input#slide1:checked ~ .slider-nav-number > .slide-nav-1 {
+    background-color:  #0F4F0A;
+  }
+  
+  input#slide2:checked ~ .slider-nav-number > .slide-nav-2 {
+    background-color:  #0F4F0A;
+  }
+  
+ 
+  
+  /* next and prev arrow */
+  input#slide1:checked ~ .slider-nav-next > label.next-2,
+  input#slide1:checked ~ .slider-nav-prev > label.prev-4 {
+    z-index: 2;
+  }
+  
+  input#slide2:checked ~ .slider-nav-next > label.next-3,
+  input#slide2:checked ~ .slider-nav-prev > label.prev-1 {
+    z-index: 2;
+  }
+  
+  input#slide3:checked ~ .slider-nav-next > label.next-4,
+  input#slide3:checked ~ .slider-nav-prev > label.prev-2 {
+    z-index: 2;
+  }
+  
+  input#slide4:checked ~ .slider-nav-next > label.next-1,
+  input#slide4:checked ~ .slider-nav-prev > label.prev-3 {
+    z-index: 2;
+  }
+   
+}
+@media screen and (max-width:1024px){
+    .patron .text2{
+        width: 700px;
+        transform: translate(-10px);
+    }
+    
+}
+/*la section loisir responsive*/
+
+@media screen and (max-width:500px) {
+    .centre{
+        display: block;
+    }
+    .boss .text2{
+        transform: translate(-10px);
+    }
+    
+}
+/*la section contact responsive*/
+
+@media screen and (max-width:912px) {
+    .page .mom2{
+        margin-left:200px ;
+    }
+    .input input{
+        height: 50px;
+        width: 538px;
+        margin-left: -66px;
+        margin-top: 50px;
+        background-color: #E9BD4C;
+        border: none;
+    }
+    .inputbig input{
+        height: 100px;
+        width: 538px;
+        margin-left: -66px;
+        margin-top: 50px;
+        background-color: #E9BD4C;
+        border: none;
+    }
+    
+}
+@media screen and (max-width:768px) {
+    .deux1 input{
+        margin-left: -10vw;
+        margin: 1vw;
+        
+    }
+    
+}
+@media screen and (max-width:600px) and (min-width:300px) {
+
+    .contact{
+        display: block;
+        height: 150vh;
+    }
+}
+
